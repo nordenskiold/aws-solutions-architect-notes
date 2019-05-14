@@ -1,6 +1,6 @@
-##Identity Access Management
+## Identity Access Management
 
-###Overview
+### Overview
 AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. 
     
 #### Features
@@ -27,7 +27,7 @@ Policies are made up of documents called Policy documents. These documents are i
 **Roles**
 You create roles and then assign them to AWS Resources.
 
-###Key Take Aways
+### Key Take Aways
 - **IAM is universal**. It does not apply to individual regions.
 - The **"root account"** is simply the account created when first setup your AWS account. It has complete Admin access.
 - New Users have **NO permissions** when first created

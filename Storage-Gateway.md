@@ -1,6 +1,6 @@
-##Storage Gateway
+## Storage Gateway
 
-###Overview
+### Overview
 AWS Storage Gateway is a service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization's on-premises IT enviroment and AWS's storage infrastructure. The service enables you to securely store data to the AWS cloud for scalable and cost-effective storage.
 
 AWS Storage Gateway's software appliance is available for download as a virtual machine (VM) image that you install on a host in your datacenter. Storage Gateway supports either VMware ESXi or Microsoft Hyper-V. Once you've installed your gateway and associated it with your AWS account through the activation process, you can use the AWS Management Console to create the storage gateway option that is right for you.
@@ -34,7 +34,7 @@ Cached volumes let you use AWS S3 as your primary data storage while retaining f
 #### Volume Gateway - Tape Gateway
 Tape Gateway offers a durable, cost-effective solution to archive your data in the AWS Cloud. The VTL interface it provides lets you leverage your existing tape-based backup application infrastructure to store data on virtual tape cartridges that you create on your tape gateway. Each tape gateway is preconfigured with a media changer and tape drives, which are available to your existing client backup applications as iSCSI devices. You add tape cartridges as you need to archive your data. Supported by NetBackup, Backup Exec, Veeam etc.
 
-###Key Take Aways
+### Key Take Aways
 - File Gateway - For flat files, stored directly on S3
 - Volume Gateway
     - **Stored Volumes** - Entire Dataset is stored on S3 and the most frequently accessed data is cached on site

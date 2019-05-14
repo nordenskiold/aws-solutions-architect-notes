@@ -1,9 +1,9 @@
-##CloudFront
+## CloudFront
 
-###Overview
+### Overview
 When using CloudFront, requests for your content is automatically routed to the nearest edge location, so content is delivered with the best possible performance. CloudFront is essentially just a content delivery network (CDN).
 
-###Key Take Aways
+### Key Take Aways
 Cloudfront
 - Objects are cached for the life of the TTL (Time to Live)
 - You can clear cached objects, but you will be charged
