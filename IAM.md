@@ -36,3 +36,7 @@ You create roles and then assign them to AWS Resources.
 - **Access Key ID & Secret Access Keys** are only viewable once during the new user creation. If lost, the keys must be regenerated through IAM.
 - Always setup Multifactor Authentication on your root account
 - You can create and customize your own password rotation policies
+
+- Roles are more secure than storing your access key and secret access key on individual EC2 instances
+- Roles are easier to manage
+- Roles can be assigned to an EC2 instance after it is created using both the AWS console and the AWS CLI

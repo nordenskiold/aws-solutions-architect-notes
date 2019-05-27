@@ -57,6 +57,18 @@ These are available to launch withing the time windows you reserve. This option 
 - Can be purchased On-Demand (hourly).
 - Can be purchased as a Reservation for up to 70% off the On-Demand price.
 
+#### Accessing EC2 Instance Data
+When SSH'd into an EC2 instance, you can access metadata with the following commands:
+
+`curl http://169.254.169.254/`
+returns a list of available versions of instance metadata
+
+`curl http://169.254.169.254/latest/meta-data/`
+ returns a directory listing of all meta-data keys that can be queried from the latest version
+
+`curl http://169.254.169.254/latest/user-data/` 
+returns the bootstrap script that was applied during the configuration and launch of the EC2 instance from the latest version
+
 ### Key Take Aways
 - Amazon Elastic Compute Cloud  (EC2) is a web service that provides resizable compute capacity in the cloud. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.
 - Four different tiers, **On Demand**, **Reserved**, **Spot**, and **Dedicated Hosts**
