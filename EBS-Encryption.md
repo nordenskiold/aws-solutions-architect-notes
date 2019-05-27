@@ -13,7 +13,7 @@ Encryption operations occur on the servers that host EC2 instances, ensuring the
 You can encrypt both the boot and data volumes of an EC2 instance. Encryption is supported by all EBS volume types.
 
 #### How To Encrypt Your EBS Volume
-**Method 1 (easiest)**
+**Method 1 (easiest)**<br>
 When launching a new EC2 instance, when configuring "storage types", use the right-most drop-down to select encryption on your root EBS volume.
 
 **Method 2**

@@ -15,16 +15,16 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
 - Supports PCI DSS Compliance
 
 #### Terminology
-**Users**
+**Users**<br>
 End Users such as people, employees of an organization, etc.
 
-**Groups**
+**Groups**<br>
 A collection of users. Each user in the group will inherit the permissions of the group
 
-**Policies**
+**Policies**<br>
 Policies are made up of documents called Policy documents. These documents are in a format called JSON and they give permissions as to what a User/Group/Role is able to do.
 
-**Roles**
+**Roles**<br>
 You create roles and then assign them to AWS Resources.
 
 ### Key Take Aways

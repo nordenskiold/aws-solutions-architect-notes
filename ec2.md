@@ -18,20 +18,20 @@ Enables you to bid whatever price you want for instance capacity, providing for 
 Physical EC2 server dedicated for your use. Dedicated Hosts can help you reduce costs by allowing you to use your existing server-bound software licenses.
 
 #### On Demand Pricing
-**Use Case:**
+*Use Case:*
 
 - Users that want the low cost and flexibility of Amazon Ec2 without any up-front payment or long-term commitment
 - Applications with short term, spiky or unpredictable workloads that cannot be interrupted
 - Applications being developed or tested on Amazon EC2 for the first time
 
 #### Reserved Pricing
-**Use Case:**
+*Use Case:*
 
 - Applications with steady state or predictable usage
 - Applications that require reserved capacity
 - Users able to make upfront payments to reduce their total computing costs even further
 
-**Types**:
+*Types*:
 
 1. **Standard Reserved Instances**
 These offer up to 75% off on demand instances. The more you pay up front and the longer the contract, the greater the discount
@@ -43,14 +43,14 @@ These offer up to 54% off on demand capability to change the attributes of the R
 These are available to launch withing the time windows you reserve. This option allows you to match your capacity reservation to a predicatable recurring schedule that only requires a fraction of a day, week, or a month.
 
 #### Spot Pricing
-**Use Case:**
+*Use Case:*
 
 - Applicatcions that have flexible start and end times
 - Applications that are only feasible at very low compute prices
 - Users with urgent computing needs for large amounts of additional capacity
 
 #### Dedicated Hosts Pricing
-**Use Case:**
+*Use Case:*
 
 - Useful for regulatory requirements that may not support multi-tenant virtualization
 - Great for licensing which does not support multi-tenancy or cloud deployments

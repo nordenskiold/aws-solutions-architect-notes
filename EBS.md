@@ -4,43 +4,42 @@
 Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability. 
 
 #### EBS Storage Types
-1. **General Purpose (SSD)**
-General purpose SSD volume that balances price and performance for a wide variety of transactional workloads
-**API Name:** gp2
-**Volume Size:** 1 GiB - 16 TiB
-**Max. IOPS:** 16,000
-**Use Case:** Most Work Loads
+1. **General Purpose (SSD)**<br>
+General purpose SSD volume that balances price and performance for a wide variety of transactional workloads<br>
+**API Name:** gp2<br>
+**Volume Size:** 1 GiB - 16 TiB<br>
+**Max. IOPS:** 16,000<br>
+**Use Case:** Most Work Loads<br>
 
-2. **Provisioned IOPS (SSD)**
-Highest performance SSD volume designed for mission-critical applications
-**API Name:** io1
-**Volume Size:** 4 GiB - 16 TiB
-**Max. IOPS:** 64,000
-**Use Case:** Databases
+2. **Provisioned IOPS (SSD)**<br>
+Highest performance SSD volume designed for mission-critical applications<br>
+**API Name:** io1<br>
+**Volume Size:** 4 GiB - 16 TiB<br>
+**Max. IOPS:** 64,000<br>
+**Use Case:** Databases<br>
 
-3. **Throughput Optimised Hard Disk Drive**
-Low cost HDD volume designed for frequently accessed, throughput-intensive workloads
-**API Name:** st1
-**Volume Size:** 500 GiB - 16 TiB
-**Max. IOPS:** 500
-**Use Case:** Big Data & Data Warehouses
-
-
-4. **Cold Hard Disk Drive**
-Lowest cost HDD volume designed for less frequently accessed workloads.
-**API Name:** sc1
-**Volume Size:** 500 GiB - 16 TiB
-**Max. IOPS:** 250
-**Use Case:** File Servers
+3. **Throughput Optimised Hard Disk Drive**<br>
+Low cost HDD volume designed for frequently accessed, throughput-intensive workloads<br>
+**API Name:** st1<br>
+**Volume Size:** 500 GiB - 16 TiB<br>
+**Max. IOPS:** 500<br>
+**Use Case:** Big Data & Data Warehouses<br>
 
 
-5. **Magnetic**
-Previous generation HDD
+4. **Cold Hard Disk Drive**<br>
+Lowest cost HDD volume designed for less frequently accessed workloads.<br>
+**API Name:** sc1<br>
+**Volume Size:** 500 GiB - 16 TiB<br>
+**Max. IOPS:** 250<br>
+**Use Case:** File Servers<br>
 
-**API Name:** Standard
-**Volume Size:** 1 GiB - 1 TiB
-**Max. IOPS:** 40-200
-**Use Case:** Workloads where data is infrequently accessed
+
+5. **Magnetic**<br>
+Previous generation HDD<br>
+**API Name:** Standard<br>
+**Volume Size:** 1 GiB - 1 TiB<br>
+**Max. IOPS:** 40-200<br>
+**Use Case:** Workloads where data is infrequently accessed<br>
 
 
 ### Key Take Aways
