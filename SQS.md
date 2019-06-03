@@ -8,10 +8,10 @@ Using SQS, you can decouple the components of an application so they run indepen
 The queue acts a buffer between the component producing and saving data, and the component receiving the data for processing. This means the queue resolves issues that arise if the producer is producing work faster than the consumer can process it, or if the producer or consumer are only intermittently connected to the network. 
 
 #### SQS Types
-**Standard Queue**
+**Standard Queue**<br>
 The default queue type. A standard queue lets you have a nearly-unlimited number of transactions per second. Standard queues guarantee that a message is delivered at least once. However, occasionally (because of hte highly-distributed architecture that allows high throughput), more than one copy of a message might be delivered out of order. Standard queues provide best-effort ordering which ensures that messages are generally delivered in the same order as they are sent (but not guaranteed and messages may be delivered more than once). 
 
-**FIFO Queue**
+**FIFO Queue**<br>
 The FIFO queue complements the standard queue. The most important features of this queue type are first-in-first-out (FIFO) delivery and exactly-once processing. This means that the order in which messages are sent and received is strictly preserved and a message is delivered once and remains available until a consumer processes and deletes it. Duplicates are not introduced into the queue. 
 
 FIFO queues also support message groups that allow multiple ordered message groups within a single queue. FIFO queues are limited to 300 transactions per second (TPS), but have all the capabilities of standard queues. 
